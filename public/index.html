@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caminhos de Rosa ao vivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="tracker-shell">
+      <section class="map-stage">
+        <div id="map" aria-label="Mapa do rastreamento Caminhos de Rosa"></div>
+        <div class="brand-panel">
+          <div class="brand-mark">
+            <span>CR</span>
+            <p>Caminhos<br />de Rosa</p>
+          </div>
+          <p class="eyebrow">Travessia no sertão mineiro</p>
+          <h1 id="target-name">Caminhos de Rosa</h1>
+          <p id="last-update">Aguardando dados do rastreador</p>
+        </div>
+        <div class="map-legend" aria-label="Legenda do mapa">
+          <span><i class="legend-done"></i> Percorrido</span>
+          <span><i class="legend-route"></i> Percurso GPX</span>
+          <span><i class="legend-live"></i> Último ponto</span>
+        </div>
+      </section>
+
+      <aside class="status-panel" aria-label="Status do trajeto">
+        <div class="status-header">
+          <div>
+            <p class="eyebrow">Ao vivo</p>
+            <h2 id="progress-title">Sem ponto ainda</h2>
+          </div>
+          <button id="refresh-button" type="button" title="Atualizar agora" aria-label="Atualizar agora">↻</button>
+        </div>
+
+        <div class="progress-track" aria-label="Progresso calculado">
+          <span id="progress-bar"></span>
+        </div>
+        <p id="route-summary" class="route-summary">Percurso GPX aguardando carregamento.</p>
+
+        <dl class="metric-grid">
+          <div>
+            <dt>Distância feita</dt>
+            <dd id="done-distance">--</dd>
+          </div>
+          <div>
+            <dt>Faltam</dt>
+            <dd id="remaining-distance">--</dd>
+          </div>
+          <div>
+            <dt>Percurso total</dt>
+            <dd id="total-distance">--</dd>
+          </div>
+          <div>
+            <dt>Vel. média</dt>
+            <dd id="avg-speed">--</dd>
+          </div>
+          <div>
+            <dt>Pace médio</dt>
+            <dd id="avg-pace">--</dd>
+          </div>
+          <div>
+            <dt>Previsão</dt>
+            <dd id="eta">--</dd>
+          </div>
+          <div>
+            <dt>Pontos do rastreador</dt>
+            <dd id="point-count">0</dd>
+          </div>
+        </dl>
+
+        <p id="status-message" class="status-message">Configure o link do rastreador na página oculta.</p>
+      </aside>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/tracker.js" type="module"></script>
+  </body>
+</html>

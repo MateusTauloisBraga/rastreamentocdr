@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Configurar rastreador</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="admin-body">
+    <main class="admin-shell">
+      <section>
+        <div class="brand-mark admin-mark">
+          <span>CR</span>
+          <p>Caminhos<br />de Rosa</p>
+        </div>
+        <p class="eyebrow">Página oculta</p>
+        <h1>Configurar rastreamento</h1>
+        <p class="admin-copy">
+          Cole o link do rastreador e, se precisar substituir o arquivo base, o trajeto completo em GPX ou GeoJSON.
+          A distância total do painel é calculada pelo percurso.
+        </p>
+      </section>
+
+      <form id="config-form" class="config-form">
+        <label>
+          Nome exibido
+          <input id="target-name" name="targetName" placeholder="Caminhos de Rosa" />
+        </label>
+
+        <label>
+          Link do rastreador
+          <input id="garmin-url" name="garminUrl" placeholder="Cole aqui o link compartilhado do rastreador" />
+        </label>
+
+        <label>
+          Formato do trajeto
+          <select id="route-format" name="routeFormat">
+            <option value="">Usar GPXBASE.gpx</option>
+            <option value="gpx">GPX</option>
+            <option value="geojson">GeoJSON</option>
+          </select>
+        </label>
+
+        <label>
+          Trajeto completo
+          <textarea id="route-text" name="routeText" rows="12" placeholder="Cole aqui o GPX ou GeoJSON do percurso"></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit">Salvar e atualizar</button>
+          <a href="/">Abrir mapa</a>
+        </div>
+
+        <p id="form-message" class="status-message"></p>
+      </form>
+    </main>
+
+    <script src="/admin.js" type="module"></script>
+  </body>
+</html>

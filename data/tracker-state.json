@@ -1,0 +1,4146 @@
+{
+  "lastFetchAt": "2026-09-02T14:28:20.254Z",
+  "lastSuccessAt": "2026-08-30T17:37:36.056Z",
+  "error": "GraphQL: HTTP 400: {\"errors\":[{\"message\":\"Cannot query field \\\"sessionById\\\" on type \\\"Query\\\".\",\"locations\":[{\"line\":2,\"column\":9}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Cannot query field \\\"trackPointsBySessionId | services: HTTP 404: <!DOCTYPE html><html lang=\"en-US\" dir=\"ltr\" data-sentry-component=\"RootLayout\" data-sentry-source-file=\"layout.jsx\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link  | pagina: nenhum trackPoint encontrado no HTML.",
+  "session": {
+    "sessionId": "22cfab0a-6c65-872e-89b8-28a7eec62f00",
+    "token": "5E7E395FCFECC7697766F3184DDECD",
+    "start": "2026-08-30T12:02:55.000Z",
+    "end": "2026-08-30T13:09:13.000Z",
+    "sessionName": "Belo Horizonte Aug 30, 2026",
+    "sessionStatus": "Complete",
+    "sessionType": "FITNESS_TRACKING"
+  },
+  "latestPoint": {
+    "lat": -19.957665586844087,
+    "lon": -43.93395577557385,
+    "timestamp": 1788095353000,
+    "dateTime": "2026-08-30T13:09:13.000Z",
+    "speedMetersPerSec": null,
+    "totalDistanceMeters": null,
+    "durationSecs": null,
+    "source": "graphql"
+  },
+  "points": [
+    {
+      "lat": -23.143815994262695,
+      "lon": -44.16671276092529,
+      "timestamp": 1785238350000,
+      "dateTime": "2026-07-28T11:32:30.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.14395546913147,
+      "lon": -44.16673421859741,
+      "timestamp": 1785238950000,
+      "dateTime": "2026-07-28T11:42:30.000Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.147313594818115,
+      "lon": -44.16797876358032,
+      "timestamp": 1785239550000,
+      "dateTime": "2026-07-28T11:52:30.000Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.1496524810791,
+      "lon": -44.16834354400635,
+      "timestamp": 1785240150000,
+      "dateTime": "2026-07-28T12:02:30.000Z",
+      "speedMetersPerSec": 0.8341733,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.151519298553467,
+      "lon": -44.16847229003906,
+      "timestamp": 1785240750000,
+      "dateTime": "2026-07-28T12:12:30.000Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.153825998306274,
+      "lon": -44.172914028167725,
+      "timestamp": 1785241350000,
+      "dateTime": "2026-07-28T12:22:30.000Z",
+      "speedMetersPerSec": 1.1127867,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.157227039337158,
+      "lon": -44.177119731903076,
+      "timestamp": 1785241950000,
+      "dateTime": "2026-07-28T12:32:30.000Z",
+      "speedMetersPerSec": 0.8341733,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.161979913711548,
+      "lon": -44.17806386947632,
+      "timestamp": 1785242550000,
+      "dateTime": "2026-07-28T12:42:30.000Z",
+      "speedMetersPerSec": 1.3922334,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.168234825134277,
+      "lon": -44.18102502822876,
+      "timestamp": 1785243150000,
+      "dateTime": "2026-07-28T12:52:30.000Z",
+      "speedMetersPerSec": 1.1127867,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.16666841506958,
+      "lon": -44.18254852294922,
+      "timestamp": 1785243750000,
+      "dateTime": "2026-07-28T13:02:30.000Z",
+      "speedMetersPerSec": 0.8341733,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.168277740478516,
+      "lon": -44.18381452560425,
+      "timestamp": 1785244350000,
+      "dateTime": "2026-07-28T13:12:30.000Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.175036907196045,
+      "lon": -44.18574571609497,
+      "timestamp": 1785244950000,
+      "dateTime": "2026-07-28T13:22:30.000Z",
+      "speedMetersPerSec": 1.3922334,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.17966103553772,
+      "lon": -44.18977975845337,
+      "timestamp": 1785245550000,
+      "dateTime": "2026-07-28T13:32:30.000Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -23.179660951718688,
+      "lon": -44.18977992609143,
+      "timestamp": 1785425709976,
+      "dateTime": "2026-07-30T15:35:09.976Z",
+      "speedMetersPerSec": 0.55583775,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958079485222697,
+      "lon": -43.93663781695068,
+      "timestamp": 1788091385000,
+      "dateTime": "2026-08-30T12:03:05.000Z",
+      "speedMetersPerSec": 2.68,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958263970911503,
+      "lon": -43.936778297647834,
+      "timestamp": 1788091393000,
+      "dateTime": "2026-08-30T12:03:13.000Z",
+      "speedMetersPerSec": 2.89,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958383413031697,
+      "lon": -43.93695750273764,
+      "timestamp": 1788091403000,
+      "dateTime": "2026-08-30T12:03:23.000Z",
+      "speedMetersPerSec": 2.37,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958471674472094,
+      "lon": -43.937156489118934,
+      "timestamp": 1788091413000,
+      "dateTime": "2026-08-30T12:03:33.000Z",
+      "speedMetersPerSec": 2.4,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958562785759568,
+      "lon": -43.93726964481175,
+      "timestamp": 1788091423000,
+      "dateTime": "2026-08-30T12:03:43.000Z",
+      "speedMetersPerSec": 1.92,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958675857633352,
+      "lon": -43.93744306638837,
+      "timestamp": 1788091433000,
+      "dateTime": "2026-08-30T12:03:53.000Z",
+      "speedMetersPerSec": 2.18,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95881751179695,
+      "lon": -43.93756686709821,
+      "timestamp": 1788091443000,
+      "dateTime": "2026-08-30T12:04:03.000Z",
+      "speedMetersPerSec": 2.17,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958982216194272,
+      "lon": -43.937648087739944,
+      "timestamp": 1788091453000,
+      "dateTime": "2026-08-30T12:04:13.000Z",
+      "speedMetersPerSec": 1.99,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959146669134498,
+      "lon": -43.93761212937534,
+      "timestamp": 1788091463000,
+      "dateTime": "2026-08-30T12:04:23.000Z",
+      "speedMetersPerSec": 2.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95924599468708,
+      "lon": -43.93747257068753,
+      "timestamp": 1788091473000,
+      "dateTime": "2026-08-30T12:04:33.000Z",
+      "speedMetersPerSec": 1.9,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95929829776287,
+      "lon": -43.937286157161,
+      "timestamp": 1788091483000,
+      "dateTime": "2026-08-30T12:04:43.000Z",
+      "speedMetersPerSec": 1.92,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959344901144505,
+      "lon": -43.93708155490458,
+      "timestamp": 1788091493000,
+      "dateTime": "2026-08-30T12:04:53.000Z",
+      "speedMetersPerSec": 1.97,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95945177040994,
+      "lon": -43.936890196055174,
+      "timestamp": 1788091503000,
+      "dateTime": "2026-08-30T12:05:03.000Z",
+      "speedMetersPerSec": 2.07,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95957431383431,
+      "lon": -43.93672498874366,
+      "timestamp": 1788091513000,
+      "dateTime": "2026-08-30T12:05:13.000Z",
+      "speedMetersPerSec": 2.12,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959678752347827,
+      "lon": -43.93653362989426,
+      "timestamp": 1788091523000,
+      "dateTime": "2026-08-30T12:05:23.000Z",
+      "speedMetersPerSec": 2.17,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95974781922996,
+      "lon": -43.936368841677904,
+      "timestamp": 1788091533000,
+      "dateTime": "2026-08-30T12:05:33.000Z",
+      "speedMetersPerSec": 2.15,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959794338792562,
+      "lon": -43.93619818612933,
+      "timestamp": 1788091543000,
+      "dateTime": "2026-08-30T12:05:43.000Z",
+      "speedMetersPerSec": 2.1,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959818311035633,
+      "lon": -43.936050329357386,
+      "timestamp": 1788091553000,
+      "dateTime": "2026-08-30T12:05:53.000Z",
+      "speedMetersPerSec": 1.88,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959791656583548,
+      "lon": -43.93591764383018,
+      "timestamp": 1788091563000,
+      "dateTime": "2026-08-30T12:06:03.000Z",
+      "speedMetersPerSec": 1.47,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959734911099076,
+      "lon": -43.93579484894872,
+      "timestamp": 1788091573000,
+      "dateTime": "2026-08-30T12:06:13.000Z",
+      "speedMetersPerSec": 1.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959645392373204,
+      "lon": -43.935699462890625,
+      "timestamp": 1788091583000,
+      "dateTime": "2026-08-30T12:06:23.000Z",
+      "speedMetersPerSec": 1.37,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959540870040655,
+      "lon": -43.935586810112,
+      "timestamp": 1788091593000,
+      "dateTime": "2026-08-30T12:06:33.000Z",
+      "speedMetersPerSec": 1.42,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95943550951779,
+      "lon": -43.93544398248196,
+      "timestamp": 1788091603000,
+      "dateTime": "2026-08-30T12:06:43.000Z",
+      "speedMetersPerSec": 1.62,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959333250299096,
+      "lon": -43.93533795140684,
+      "timestamp": 1788091613000,
+      "dateTime": "2026-08-30T12:06:53.000Z",
+      "speedMetersPerSec": 1.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.959232416003942,
+      "lon": -43.93519629724324,
+      "timestamp": 1788091623000,
+      "dateTime": "2026-08-30T12:07:03.000Z",
+      "speedMetersPerSec": 1.69,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95911800302565,
+      "lon": -43.935026563704014,
+      "timestamp": 1788091633000,
+      "dateTime": "2026-08-30T12:07:13.000Z",
+      "speedMetersPerSec": 1.86,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95901968330145,
+      "lon": -43.934830678626895,
+      "timestamp": 1788091643000,
+      "dateTime": "2026-08-30T12:07:23.000Z",
+      "speedMetersPerSec": 2.16,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958877777680755,
+      "lon": -43.9346853364259,
+      "timestamp": 1788091653000,
+      "dateTime": "2026-08-30T12:07:33.000Z",
+      "speedMetersPerSec": 2.19,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958739057183266,
+      "lon": -43.934537060558796,
+      "timestamp": 1788091663000,
+      "dateTime": "2026-08-30T12:07:43.000Z",
+      "speedMetersPerSec": 2.17,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95856882072985,
+      "lon": -43.93443061038852,
+      "timestamp": 1788091673000,
+      "dateTime": "2026-08-30T12:07:53.000Z",
+      "speedMetersPerSec": 2.18,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.958399925380945,
+      "lon": -43.9343002717942,
+      "timestamp": 1788091683000,
+      "dateTime": "2026-08-30T12:08:03.000Z",
+      "speedMetersPerSec": 2.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95818668976426,
+      "lon": -43.93420195207,
+      "timestamp": 1788091693000,
+      "dateTime": "2026-08-30T12:08:13.000Z",
+      "speedMetersPerSec": 2.37,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95797605253756,
+      "lon": -43.934092316776514,
+      "timestamp": 1788091703000,
+      "dateTime": "2026-08-30T12:08:23.000Z",
+      "speedMetersPerSec": 2.46,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957751417532563,
+      "lon": -43.93400078639388,
+      "timestamp": 1788091713000,
+      "dateTime": "2026-08-30T12:08:33.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95754899457097,
+      "lon": -43.93391562625766,
+      "timestamp": 1788091723000,
+      "dateTime": "2026-08-30T12:08:43.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95737054385245,
+      "lon": -43.934060633182526,
+      "timestamp": 1788091733000,
+      "dateTime": "2026-08-30T12:08:53.000Z",
+      "speedMetersPerSec": 2.59,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957129815593362,
+      "lon": -43.93412282690406,
+      "timestamp": 1788091743000,
+      "dateTime": "2026-08-30T12:09:03.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95688347145915,
+      "lon": -43.93403900787234,
+      "timestamp": 1788091753000,
+      "dateTime": "2026-08-30T12:09:13.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956742823123932,
+      "lon": -43.933814791962504,
+      "timestamp": 1788091763000,
+      "dateTime": "2026-08-30T12:09:23.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95675682090223,
+      "lon": -43.933552438393235,
+      "timestamp": 1788091773000,
+      "dateTime": "2026-08-30T12:09:33.000Z",
+      "speedMetersPerSec": 2.97,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956881795078516,
+      "lon": -43.93335479311645,
+      "timestamp": 1788091783000,
+      "dateTime": "2026-08-30T12:09:43.000Z",
+      "speedMetersPerSec": 2.72,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957022527232766,
+      "lon": -43.933249013498425,
+      "timestamp": 1788091793000,
+      "dateTime": "2026-08-30T12:09:53.000Z",
+      "speedMetersPerSec": 2.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95717558078468,
+      "lon": -43.933203583583236,
+      "timestamp": 1788091803000,
+      "dateTime": "2026-08-30T12:10:03.000Z",
+      "speedMetersPerSec": 1.97,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957212964072824,
+      "lon": -43.93320324830711,
+      "timestamp": 1788091813000,
+      "dateTime": "2026-08-30T12:10:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957219753414392,
+      "lon": -43.93319629132748,
+      "timestamp": 1788091823000,
+      "dateTime": "2026-08-30T12:10:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957219753414392,
+      "lon": -43.93319629132748,
+      "timestamp": 1788091833000,
+      "dateTime": "2026-08-30T12:10:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957219753414392,
+      "lon": -43.93319629132748,
+      "timestamp": 1788091843000,
+      "dateTime": "2026-08-30T12:10:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957219753414392,
+      "lon": -43.93319629132748,
+      "timestamp": 1788091853000,
+      "dateTime": "2026-08-30T12:10:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95721522718668,
+      "lon": -43.933191346004605,
+      "timestamp": 1788091863000,
+      "dateTime": "2026-08-30T12:11:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95718010701239,
+      "lon": -43.9331519510597,
+      "timestamp": 1788091873000,
+      "dateTime": "2026-08-30T12:11:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091883000,
+      "dateTime": "2026-08-30T12:11:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091893000,
+      "dateTime": "2026-08-30T12:11:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091903000,
+      "dateTime": "2026-08-30T12:11:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091913000,
+      "dateTime": "2026-08-30T12:11:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091923000,
+      "dateTime": "2026-08-30T12:12:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091933000,
+      "dateTime": "2026-08-30T12:12:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091943000,
+      "dateTime": "2026-08-30T12:12:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091953000,
+      "dateTime": "2026-08-30T12:12:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091963000,
+      "dateTime": "2026-08-30T12:12:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091973000,
+      "dateTime": "2026-08-30T12:12:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091983000,
+      "dateTime": "2026-08-30T12:13:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788091993000,
+      "dateTime": "2026-08-30T12:13:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092003000,
+      "dateTime": "2026-08-30T12:13:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092013000,
+      "dateTime": "2026-08-30T12:13:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092023000,
+      "dateTime": "2026-08-30T12:13:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092033000,
+      "dateTime": "2026-08-30T12:13:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092043000,
+      "dateTime": "2026-08-30T12:14:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092053000,
+      "dateTime": "2026-08-30T12:14:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092063000,
+      "dateTime": "2026-08-30T12:14:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092073000,
+      "dateTime": "2026-08-30T12:14:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092083000,
+      "dateTime": "2026-08-30T12:14:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092093000,
+      "dateTime": "2026-08-30T12:14:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092103000,
+      "dateTime": "2026-08-30T12:15:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957194104790688,
+      "lon": -43.933154214173555,
+      "timestamp": 1788092113000,
+      "dateTime": "2026-08-30T12:15:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092123000,
+      "dateTime": "2026-08-30T12:15:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092133000,
+      "dateTime": "2026-08-30T12:15:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092143000,
+      "dateTime": "2026-08-30T12:15:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092153000,
+      "dateTime": "2026-08-30T12:15:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092163000,
+      "dateTime": "2026-08-30T12:16:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092173000,
+      "dateTime": "2026-08-30T12:16:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092183000,
+      "dateTime": "2026-08-30T12:16:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092193000,
+      "dateTime": "2026-08-30T12:16:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092203000,
+      "dateTime": "2026-08-30T12:16:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957177927717566,
+      "lon": -43.933155220001936,
+      "timestamp": 1788092213000,
+      "dateTime": "2026-08-30T12:16:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957178346812725,
+      "lon": -43.93307039514184,
+      "timestamp": 1788092223000,
+      "dateTime": "2026-08-30T12:17:03.000Z",
+      "speedMetersPerSec": 1.83,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957132833078504,
+      "lon": -43.93282379955053,
+      "timestamp": 1788092233000,
+      "dateTime": "2026-08-30T12:17:13.000Z",
+      "speedMetersPerSec": 2.69,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957095365971327,
+      "lon": -43.93257820978761,
+      "timestamp": 1788092243000,
+      "dateTime": "2026-08-30T12:17:23.000Z",
+      "speedMetersPerSec": 2.66,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957163175567985,
+      "lon": -43.93235927447677,
+      "timestamp": 1788092253000,
+      "dateTime": "2026-08-30T12:17:33.000Z",
+      "speedMetersPerSec": 2.57,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957250682637095,
+      "lon": -43.932129107415676,
+      "timestamp": 1788092263000,
+      "dateTime": "2026-08-30T12:17:43.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957317234948277,
+      "lon": -43.93188435584307,
+      "timestamp": 1788092273000,
+      "dateTime": "2026-08-30T12:17:53.000Z",
+      "speedMetersPerSec": 2.61,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95736568234861,
+      "lon": -43.931633066385984,
+      "timestamp": 1788092283000,
+      "dateTime": "2026-08-30T12:18:03.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957419158890843,
+      "lon": -43.93141396343708,
+      "timestamp": 1788092293000,
+      "dateTime": "2026-08-30T12:18:13.000Z",
+      "speedMetersPerSec": 2.59,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957460649311543,
+      "lon": -43.93119066953659,
+      "timestamp": 1788092303000,
+      "dateTime": "2026-08-30T12:18:23.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957472970709205,
+      "lon": -43.93094399012625,
+      "timestamp": 1788092313000,
+      "dateTime": "2026-08-30T12:18:33.000Z",
+      "speedMetersPerSec": 2.54,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95737054385245,
+      "lon": -43.93074743449688,
+      "timestamp": 1788092323000,
+      "dateTime": "2026-08-30T12:18:43.000Z",
+      "speedMetersPerSec": 2.51,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957245737314224,
+      "lon": -43.93055942840874,
+      "timestamp": 1788092333000,
+      "dateTime": "2026-08-30T12:18:53.000Z",
+      "speedMetersPerSec": 2.49,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95713367126882,
+      "lon": -43.93035851418972,
+      "timestamp": 1788092343000,
+      "dateTime": "2026-08-30T12:19:03.000Z",
+      "speedMetersPerSec": 2.45,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95698858052492,
+      "lon": -43.93018953502178,
+      "timestamp": 1788092353000,
+      "dateTime": "2026-08-30T12:19:13.000Z",
+      "speedMetersPerSec": 2.44,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956852039322257,
+      "lon": -43.930001026019454,
+      "timestamp": 1788092363000,
+      "dateTime": "2026-08-30T12:19:23.000Z",
+      "speedMetersPerSec": 2.46,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956646850332618,
+      "lon": -43.92990010790527,
+      "timestamp": 1788092373000,
+      "dateTime": "2026-08-30T12:19:33.000Z",
+      "speedMetersPerSec": 2.46,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956438224762678,
+      "lon": -43.929786533117294,
+      "timestamp": 1788092383000,
+      "dateTime": "2026-08-30T12:19:43.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95619749650359,
+      "lon": -43.929759627208114,
+      "timestamp": 1788092393000,
+      "dateTime": "2026-08-30T12:19:53.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95595559477806,
+      "lon": -43.929743533954024,
+      "timestamp": 1788092403000,
+      "dateTime": "2026-08-30T12:20:03.000Z",
+      "speedMetersPerSec": 2.6,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955715872347355,
+      "lon": -43.92973314039409,
+      "timestamp": 1788092413000,
+      "dateTime": "2026-08-30T12:20:13.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95547715574503,
+      "lon": -43.92972081899643,
+      "timestamp": 1788092423000,
+      "dateTime": "2026-08-30T12:20:23.000Z",
+      "speedMetersPerSec": 2.66,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955245815217495,
+      "lon": -43.929676143452525,
+      "timestamp": 1788092433000,
+      "dateTime": "2026-08-30T12:20:33.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95501011610031,
+      "lon": -43.92964177764952,
+      "timestamp": 1788092443000,
+      "dateTime": "2026-08-30T12:20:43.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954769052565098,
+      "lon": -43.92963498830795,
+      "timestamp": 1788092453000,
+      "dateTime": "2026-08-30T12:20:53.000Z",
+      "speedMetersPerSec": 2.68,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954533772543073,
+      "lon": -43.92960447818041,
+      "timestamp": 1788092463000,
+      "dateTime": "2026-08-30T12:21:03.000Z",
+      "speedMetersPerSec": 2.66,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95430058799684,
+      "lon": -43.92955083400011,
+      "timestamp": 1788092473000,
+      "dateTime": "2026-08-30T12:21:13.000Z",
+      "speedMetersPerSec": 2.68,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954100595787168,
+      "lon": -43.92939845100045,
+      "timestamp": 1788092483000,
+      "dateTime": "2026-08-30T12:21:23.000Z",
+      "speedMetersPerSec": 2.68,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953946955502033,
+      "lon": -43.92919544130564,
+      "timestamp": 1788092493000,
+      "dateTime": "2026-08-30T12:21:33.000Z",
+      "speedMetersPerSec": 2.71,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953866908326745,
+      "lon": -43.928936859592795,
+      "timestamp": 1788092503000,
+      "dateTime": "2026-08-30T12:21:43.000Z",
+      "speedMetersPerSec": 2.74,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953894903883338,
+      "lon": -43.928665202111006,
+      "timestamp": 1788092513000,
+      "dateTime": "2026-08-30T12:21:53.000Z",
+      "speedMetersPerSec": 2.79,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.9539209716022,
+      "lon": -43.92841625958681,
+      "timestamp": 1788092523000,
+      "dateTime": "2026-08-30T12:22:03.000Z",
+      "speedMetersPerSec": 2.78,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953962545841932,
+      "lon": -43.928163042292,
+      "timestamp": 1788092533000,
+      "dateTime": "2026-08-30T12:22:13.000Z",
+      "speedMetersPerSec": 2.77,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954003114253283,
+      "lon": -43.927912255749106,
+      "timestamp": 1788092543000,
+      "dateTime": "2026-08-30T12:22:23.000Z",
+      "speedMetersPerSec": 2.74,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954043934121728,
+      "lon": -43.927664905786514,
+      "timestamp": 1788092553000,
+      "dateTime": "2026-08-30T12:22:33.000Z",
+      "speedMetersPerSec": 2.72,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954076875001192,
+      "lon": -43.92741370014846,
+      "timestamp": 1788092563000,
+      "dateTime": "2026-08-30T12:22:43.000Z",
+      "speedMetersPerSec": 2.7,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954123310744762,
+      "lon": -43.927193423733115,
+      "timestamp": 1788092573000,
+      "dateTime": "2026-08-30T12:22:53.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95414267294109,
+      "lon": -43.926942301914096,
+      "timestamp": 1788092583000,
+      "dateTime": "2026-08-30T12:23:03.000Z",
+      "speedMetersPerSec": 2.61,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954151809215546,
+      "lon": -43.92669000662863,
+      "timestamp": 1788092593000,
+      "dateTime": "2026-08-30T12:23:13.000Z",
+      "speedMetersPerSec": 2.61,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954084837809205,
+      "lon": -43.926475094631314,
+      "timestamp": 1788092603000,
+      "dateTime": "2026-08-30T12:23:23.000Z",
+      "speedMetersPerSec": 2.59,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95400294661522,
+      "lon": -43.92624911852181,
+      "timestamp": 1788092613000,
+      "dateTime": "2026-08-30T12:23:33.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953912338241935,
+      "lon": -43.926031440496445,
+      "timestamp": 1788092623000,
+      "dateTime": "2026-08-30T12:23:43.000Z",
+      "speedMetersPerSec": 2.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95378937572241,
+      "lon": -43.92582683824003,
+      "timestamp": 1788092633000,
+      "dateTime": "2026-08-30T12:23:53.000Z",
+      "speedMetersPerSec": 2.52,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953656271100044,
+      "lon": -43.925622990354896,
+      "timestamp": 1788092643000,
+      "dateTime": "2026-08-30T12:24:03.000Z",
+      "speedMetersPerSec": 2.52,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953522579744458,
+      "lon": -43.925391901284456,
+      "timestamp": 1788092653000,
+      "dateTime": "2026-08-30T12:24:13.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953387714922428,
+      "lon": -43.92518335953355,
+      "timestamp": 1788092663000,
+      "dateTime": "2026-08-30T12:24:23.000Z",
+      "speedMetersPerSec": 2.59,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953253269195557,
+      "lon": -43.924995018169284,
+      "timestamp": 1788092673000,
+      "dateTime": "2026-08-30T12:24:33.000Z",
+      "speedMetersPerSec": 2.57,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953185375779867,
+      "lon": -43.9248629193753,
+      "timestamp": 1788092683000,
+      "dateTime": "2026-08-30T12:24:43.000Z",
+      "speedMetersPerSec": 2.48,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95311127975583,
+      "lon": -43.92476895824075,
+      "timestamp": 1788092693000,
+      "dateTime": "2026-08-30T12:24:53.000Z",
+      "speedMetersPerSec": 1.46,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953063586726785,
+      "lon": -43.92469829879701,
+      "timestamp": 1788092703000,
+      "dateTime": "2026-08-30T12:25:03.000Z",
+      "speedMetersPerSec": 1.42,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953080350533128,
+      "lon": -43.92468463629484,
+      "timestamp": 1788092713000,
+      "dateTime": "2026-08-30T12:25:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953080350533128,
+      "lon": -43.92468463629484,
+      "timestamp": 1788092723000,
+      "dateTime": "2026-08-30T12:25:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95302385650575,
+      "lon": -43.92458681948483,
+      "timestamp": 1788092733000,
+      "dateTime": "2026-08-30T12:25:33.000Z",
+      "speedMetersPerSec": 1.69,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952887818217278,
+      "lon": -43.924376517534256,
+      "timestamp": 1788092743000,
+      "dateTime": "2026-08-30T12:25:43.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95274381712079,
+      "lon": -43.924171244725585,
+      "timestamp": 1788092753000,
+      "dateTime": "2026-08-30T12:25:53.000Z",
+      "speedMetersPerSec": 2.7,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952657064422965,
+      "lon": -43.92393001355231,
+      "timestamp": 1788092763000,
+      "dateTime": "2026-08-30T12:26:03.000Z",
+      "speedMetersPerSec": 2.67,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952605767175555,
+      "lon": -43.923682076856494,
+      "timestamp": 1788092773000,
+      "dateTime": "2026-08-30T12:26:13.000Z",
+      "speedMetersPerSec": 2.67,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952580453827977,
+      "lon": -43.92341603524983,
+      "timestamp": 1788092783000,
+      "dateTime": "2026-08-30T12:26:23.000Z",
+      "speedMetersPerSec": 2.72,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952538292855024,
+      "lon": -43.92315912991762,
+      "timestamp": 1788092793000,
+      "dateTime": "2026-08-30T12:26:33.000Z",
+      "speedMetersPerSec": 2.72,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952451791614294,
+      "lon": -43.922923346981406,
+      "timestamp": 1788092803000,
+      "dateTime": "2026-08-30T12:26:43.000Z",
+      "speedMetersPerSec": 2.72,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952330254018307,
+      "lon": -43.92269133590162,
+      "timestamp": 1788092813000,
+      "dateTime": "2026-08-30T12:26:53.000Z",
+      "speedMetersPerSec": 2.74,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952164627611637,
+      "lon": -43.9224988874048,
+      "timestamp": 1788092823000,
+      "dateTime": "2026-08-30T12:27:03.000Z",
+      "speedMetersPerSec": 2.75,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95199858210981,
+      "lon": -43.92236310057342,
+      "timestamp": 1788092833000,
+      "dateTime": "2026-08-30T12:27:13.000Z",
+      "speedMetersPerSec": 2.71,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951790794730186,
+      "lon": -43.92225950025022,
+      "timestamp": 1788092843000,
+      "dateTime": "2026-08-30T12:27:23.000Z",
+      "speedMetersPerSec": 2.51,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95155492797494,
+      "lon": -43.92220518551767,
+      "timestamp": 1788092853000,
+      "dateTime": "2026-08-30T12:27:33.000Z",
+      "speedMetersPerSec": 2.63,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951337752863765,
+      "lon": -43.92219093628228,
+      "timestamp": 1788092863000,
+      "dateTime": "2026-08-30T12:27:43.000Z",
+      "speedMetersPerSec": 2.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951112112030387,
+      "lon": -43.9222121424973,
+      "timestamp": 1788092873000,
+      "dateTime": "2026-08-30T12:27:53.000Z",
+      "speedMetersPerSec": 2.54,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95087767019868,
+      "lon": -43.92223502509296,
+      "timestamp": 1788092883000,
+      "dateTime": "2026-08-30T12:28:03.000Z",
+      "speedMetersPerSec": 2.54,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95065244846046,
+      "lon": -43.92222220078111,
+      "timestamp": 1788092893000,
+      "dateTime": "2026-08-30T12:28:13.000Z",
+      "speedMetersPerSec": 2.55,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950429070740938,
+      "lon": -43.92215833067894,
+      "timestamp": 1788092903000,
+      "dateTime": "2026-08-30T12:28:23.000Z",
+      "speedMetersPerSec": 2.55,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950206531211734,
+      "lon": -43.92202162183821,
+      "timestamp": 1788092913000,
+      "dateTime": "2026-08-30T12:28:33.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.9500251468271,
+      "lon": -43.921837555244565,
+      "timestamp": 1788092923000,
+      "dateTime": "2026-08-30T12:28:43.000Z",
+      "speedMetersPerSec": 2.83,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949897238984704,
+      "lon": -43.92160177230835,
+      "timestamp": 1788092933000,
+      "dateTime": "2026-08-30T12:28:53.000Z",
+      "speedMetersPerSec": 2.89,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949781065806746,
+      "lon": -43.921384094282985,
+      "timestamp": 1788092943000,
+      "dateTime": "2026-08-30T12:29:03.000Z",
+      "speedMetersPerSec": 2.69,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949699258431792,
+      "lon": -43.92124964855611,
+      "timestamp": 1788092953000,
+      "dateTime": "2026-08-30T12:29:13.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94960336945951,
+      "lon": -43.92102668993175,
+      "timestamp": 1788092963000,
+      "dateTime": "2026-08-30T12:29:23.000Z",
+      "speedMetersPerSec": 2.56,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949505971744657,
+      "lon": -43.920803563669324,
+      "timestamp": 1788092973000,
+      "dateTime": "2026-08-30T12:29:33.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949382422491908,
+      "lon": -43.92058060504496,
+      "timestamp": 1788092983000,
+      "dateTime": "2026-08-30T12:29:43.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.9493620544672,
+      "lon": -43.920366279780865,
+      "timestamp": 1788092993000,
+      "dateTime": "2026-08-30T12:29:53.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949459452182055,
+      "lon": -43.92013452015817,
+      "timestamp": 1788093003000,
+      "dateTime": "2026-08-30T12:30:03.000Z",
+      "speedMetersPerSec": 2.58,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949494237080216,
+      "lon": -43.91992480494082,
+      "timestamp": 1788093013000,
+      "dateTime": "2026-08-30T12:30:13.000Z",
+      "speedMetersPerSec": 2.54,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949440844357014,
+      "lon": -43.91980259679258,
+      "timestamp": 1788093023000,
+      "dateTime": "2026-08-30T12:30:23.000Z",
+      "speedMetersPerSec": 1.57,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949302962049842,
+      "lon": -43.91964971087873,
+      "timestamp": 1788093033000,
+      "dateTime": "2026-08-30T12:30:33.000Z",
+      "speedMetersPerSec": 2.13,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94908637367189,
+      "lon": -43.91955013386905,
+      "timestamp": 1788093043000,
+      "dateTime": "2026-08-30T12:30:43.000Z",
+      "speedMetersPerSec": 2.51,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948954610154033,
+      "lon": -43.91955574974418,
+      "timestamp": 1788093053000,
+      "dateTime": "2026-08-30T12:30:53.000Z",
+      "speedMetersPerSec": 1.82,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948788983747363,
+      "lon": -43.91961702145636,
+      "timestamp": 1788093063000,
+      "dateTime": "2026-08-30T12:31:03.000Z",
+      "speedMetersPerSec": 2.38,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948723185807467,
+      "lon": -43.919677371159196,
+      "timestamp": 1788093073000,
+      "dateTime": "2026-08-30T12:31:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948676582425833,
+      "lon": -43.91972254961729,
+      "timestamp": 1788093083000,
+      "dateTime": "2026-08-30T12:31:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94864313863218,
+      "lon": -43.919798573479056,
+      "timestamp": 1788093093000,
+      "dateTime": "2026-08-30T12:31:33.000Z",
+      "speedMetersPerSec": 0.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948614304885268,
+      "lon": -43.919884487986565,
+      "timestamp": 1788093103000,
+      "dateTime": "2026-08-30T12:31:43.000Z",
+      "speedMetersPerSec": 0.98,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948590667918324,
+      "lon": -43.91998037695885,
+      "timestamp": 1788093113000,
+      "dateTime": "2026-08-30T12:31:53.000Z",
+      "speedMetersPerSec": 0.96,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948599385097623,
+      "lon": -43.920095628127456,
+      "timestamp": 1788093123000,
+      "dateTime": "2026-08-30T12:32:03.000Z",
+      "speedMetersPerSec": 1.18,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.9486833717674,
+      "lon": -43.920259745791554,
+      "timestamp": 1788093133000,
+      "dateTime": "2026-08-30T12:32:13.000Z",
+      "speedMetersPerSec": 1.71,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.948746068403125,
+      "lon": -43.92036493867636,
+      "timestamp": 1788093143000,
+      "dateTime": "2026-08-30T12:32:23.000Z",
+      "speedMetersPerSec": 2.57,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94893985800445,
+      "lon": -43.92047247849405,
+      "timestamp": 1788093153000,
+      "dateTime": "2026-08-30T12:32:33.000Z",
+      "speedMetersPerSec": 2.45,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94917429983616,
+      "lon": -43.92046409659088,
+      "timestamp": 1788093163000,
+      "dateTime": "2026-08-30T12:32:43.000Z",
+      "speedMetersPerSec": 2.73,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949312936514616,
+      "lon": -43.92048806883395,
+      "timestamp": 1788093173000,
+      "dateTime": "2026-08-30T12:32:53.000Z",
+      "speedMetersPerSec": 2.66,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949426595121622,
+      "lon": -43.920717062428594,
+      "timestamp": 1788093183000,
+      "dateTime": "2026-08-30T12:33:03.000Z",
+      "speedMetersPerSec": 2.6,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94956330396235,
+      "lon": -43.920943373814225,
+      "timestamp": 1788093193000,
+      "dateTime": "2026-08-30T12:33:13.000Z",
+      "speedMetersPerSec": 2.75,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94968450628221,
+      "lon": -43.92118167132139,
+      "timestamp": 1788093203000,
+      "dateTime": "2026-08-30T12:33:23.000Z",
+      "speedMetersPerSec": 2.87,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949796153232455,
+      "lon": -43.92141569405794,
+      "timestamp": 1788093213000,
+      "dateTime": "2026-08-30T12:33:33.000Z",
+      "speedMetersPerSec": 2.83,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949871422722936,
+      "lon": -43.92156598158181,
+      "timestamp": 1788093223000,
+      "dateTime": "2026-08-30T12:33:43.000Z",
+      "speedMetersPerSec": 2.42,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94998105801642,
+      "lon": -43.92176932655275,
+      "timestamp": 1788093233000,
+      "dateTime": "2026-08-30T12:33:53.000Z",
+      "speedMetersPerSec": 2.98,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950126064941287,
+      "lon": -43.921966133639216,
+      "timestamp": 1788093243000,
+      "dateTime": "2026-08-30T12:34:03.000Z",
+      "speedMetersPerSec": 2.55,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95030904188752,
+      "lon": -43.922122372314334,
+      "timestamp": 1788093253000,
+      "dateTime": "2026-08-30T12:34:13.000Z",
+      "speedMetersPerSec": 2.65,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950532587245107,
+      "lon": -43.92220803536475,
+      "timestamp": 1788093263000,
+      "dateTime": "2026-08-30T12:34:23.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95076392777264,
+      "lon": -43.92222982831299,
+      "timestamp": 1788093273000,
+      "dateTime": "2026-08-30T12:34:33.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951022258028388,
+      "lon": -43.9222242962569,
+      "timestamp": 1788093283000,
+      "dateTime": "2026-08-30T12:34:43.000Z",
+      "speedMetersPerSec": 2.7,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95128712616861,
+      "lon": -43.92223016358912,
+      "timestamp": 1788093293000,
+      "dateTime": "2026-08-30T12:34:53.000Z",
+      "speedMetersPerSec": 2.76,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951558113098145,
+      "lon": -43.922241227701306,
+      "timestamp": 1788093303000,
+      "dateTime": "2026-08-30T12:35:03.000Z",
+      "speedMetersPerSec": 2.83,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951826753094792,
+      "lon": -43.92232772894204,
+      "timestamp": 1788093313000,
+      "dateTime": "2026-08-30T12:35:13.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952076449990273,
+      "lon": -43.922459576278925,
+      "timestamp": 1788093323000,
+      "dateTime": "2026-08-30T12:35:23.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952297732234,
+      "lon": -43.92266593873501,
+      "timestamp": 1788093333000,
+      "dateTime": "2026-08-30T12:35:33.000Z",
+      "speedMetersPerSec": 3.07,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95244567282498,
+      "lon": -43.922905744984746,
+      "timestamp": 1788093343000,
+      "dateTime": "2026-08-30T12:35:43.000Z",
+      "speedMetersPerSec": 3.12,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952531587332487,
+      "lon": -43.92316407524049,
+      "timestamp": 1788093353000,
+      "dateTime": "2026-08-30T12:35:53.000Z",
+      "speedMetersPerSec": 3.1,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95257869362831,
+      "lon": -43.9234365709126,
+      "timestamp": 1788093363000,
+      "dateTime": "2026-08-30T12:36:03.000Z",
+      "speedMetersPerSec": 3.08,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952624710276723,
+      "lon": -43.9236990083009,
+      "timestamp": 1788093373000,
+      "dateTime": "2026-08-30T12:36:13.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952689921483397,
+      "lon": -43.923961194232106,
+      "timestamp": 1788093383000,
+      "dateTime": "2026-08-30T12:36:23.000Z",
+      "speedMetersPerSec": 2.96,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95278773829341,
+      "lon": -43.92421985976398,
+      "timestamp": 1788093393000,
+      "dateTime": "2026-08-30T12:36:33.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95292562060058,
+      "lon": -43.924446338787675,
+      "timestamp": 1788093403000,
+      "dateTime": "2026-08-30T12:36:43.000Z",
+      "speedMetersPerSec": 2.93,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95306341908872,
+      "lon": -43.924688240513206,
+      "timestamp": 1788093413000,
+      "dateTime": "2026-08-30T12:36:53.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953193925321102,
+      "lon": -43.92491991631687,
+      "timestamp": 1788093423000,
+      "dateTime": "2026-08-30T12:37:03.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95334094390273,
+      "lon": -43.92516969703138,
+      "timestamp": 1788093433000,
+      "dateTime": "2026-08-30T12:37:13.000Z",
+      "speedMetersPerSec": 2.95,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953484190627933,
+      "lon": -43.92542098648846,
+      "timestamp": 1788093443000,
+      "dateTime": "2026-08-30T12:37:23.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95365073904395,
+      "lon": -43.92566288821399,
+      "timestamp": 1788093453000,
+      "dateTime": "2026-08-30T12:37:33.000Z",
+      "speedMetersPerSec": 3.08,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953782754018903,
+      "lon": -43.925912249833345,
+      "timestamp": 1788093463000,
+      "dateTime": "2026-08-30T12:37:43.000Z",
+      "speedMetersPerSec": 3.09,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953921977430582,
+      "lon": -43.92616261728108,
+      "timestamp": 1788093473000,
+      "dateTime": "2026-08-30T12:37:53.000Z",
+      "speedMetersPerSec": 3.08,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954068660736084,
+      "lon": -43.92641197890043,
+      "timestamp": 1788093483000,
+      "dateTime": "2026-08-30T12:38:03.000Z",
+      "speedMetersPerSec": 3.09,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954142840579152,
+      "lon": -43.92669780179858,
+      "timestamp": 1788093493000,
+      "dateTime": "2026-08-30T12:38:13.000Z",
+      "speedMetersPerSec": 3.11,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954161951318383,
+      "lon": -43.92699494026601,
+      "timestamp": 1788093503000,
+      "dateTime": "2026-08-30T12:38:23.000Z",
+      "speedMetersPerSec": 3.14,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95414074510336,
+      "lon": -43.92706576734781,
+      "timestamp": 1788093513000,
+      "dateTime": "2026-08-30T12:38:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093523000,
+      "dateTime": "2026-08-30T12:38:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093533000,
+      "dateTime": "2026-08-30T12:38:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093543000,
+      "dateTime": "2026-08-30T12:39:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093553000,
+      "dateTime": "2026-08-30T12:39:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093563000,
+      "dateTime": "2026-08-30T12:39:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093573000,
+      "dateTime": "2026-08-30T12:39:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093583000,
+      "dateTime": "2026-08-30T12:39:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093593000,
+      "dateTime": "2026-08-30T12:39:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093603000,
+      "dateTime": "2026-08-30T12:40:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093613000,
+      "dateTime": "2026-08-30T12:40:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093623000,
+      "dateTime": "2026-08-30T12:40:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093633000,
+      "dateTime": "2026-08-30T12:40:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093643000,
+      "dateTime": "2026-08-30T12:40:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093653000,
+      "dateTime": "2026-08-30T12:40:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093663000,
+      "dateTime": "2026-08-30T12:41:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093673000,
+      "dateTime": "2026-08-30T12:41:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954139990732074,
+      "lon": -43.927063923329115,
+      "timestamp": 1788093683000,
+      "dateTime": "2026-08-30T12:41:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954140074551105,
+      "lon": -43.92704548314214,
+      "timestamp": 1788093693000,
+      "dateTime": "2026-08-30T12:41:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95413940399885,
+      "lon": -43.92704506404698,
+      "timestamp": 1788093703000,
+      "dateTime": "2026-08-30T12:41:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95413940399885,
+      "lon": -43.92704506404698,
+      "timestamp": 1788093713000,
+      "dateTime": "2026-08-30T12:41:53.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95413940399885,
+      "lon": -43.92704506404698,
+      "timestamp": 1788093723000,
+      "dateTime": "2026-08-30T12:42:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954122304916382,
+      "lon": -43.92704942263663,
+      "timestamp": 1788093733000,
+      "dateTime": "2026-08-30T12:42:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954123897477984,
+      "lon": -43.92705034464598,
+      "timestamp": 1788093743000,
+      "dateTime": "2026-08-30T12:42:23.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954124987125397,
+      "lon": -43.927071550861,
+      "timestamp": 1788093753000,
+      "dateTime": "2026-08-30T12:42:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954095734283328,
+      "lon": -43.92736324109137,
+      "timestamp": 1788093763000,
+      "dateTime": "2026-08-30T12:42:43.000Z",
+      "speedMetersPerSec": 3.38,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954044185578823,
+      "lon": -43.92765149474144,
+      "timestamp": 1788093773000,
+      "dateTime": "2026-08-30T12:42:53.000Z",
+      "speedMetersPerSec": 3.14,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954003114253283,
+      "lon": -43.927945448085666,
+      "timestamp": 1788093783000,
+      "dateTime": "2026-08-30T12:43:03.000Z",
+      "speedMetersPerSec": 3.09,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95394586585462,
+      "lon": -43.92822112888098,
+      "timestamp": 1788093793000,
+      "dateTime": "2026-08-30T12:43:13.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953899011015892,
+      "lon": -43.92849882133305,
+      "timestamp": 1788093803000,
+      "dateTime": "2026-08-30T12:43:23.000Z",
+      "speedMetersPerSec": 2.98,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953848719596863,
+      "lon": -43.928781878203154,
+      "timestamp": 1788093813000,
+      "dateTime": "2026-08-30T12:43:33.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953881073743105,
+      "lon": -43.929067784920335,
+      "timestamp": 1788093823000,
+      "dateTime": "2026-08-30T12:43:43.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954015519469976,
+      "lon": -43.9293198287487,
+      "timestamp": 1788093833000,
+      "dateTime": "2026-08-30T12:43:53.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95420143008232,
+      "lon": -43.92953113652766,
+      "timestamp": 1788093843000,
+      "dateTime": "2026-08-30T12:44:03.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954458754509687,
+      "lon": -43.92964420840144,
+      "timestamp": 1788093853000,
+      "dateTime": "2026-08-30T12:44:13.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954723371192813,
+      "lon": -43.92966809682548,
+      "timestamp": 1788093863000,
+      "dateTime": "2026-08-30T12:44:23.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954998213797808,
+      "lon": -43.9296845253557,
+      "timestamp": 1788093873000,
+      "dateTime": "2026-08-30T12:44:33.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955279007554054,
+      "lon": -43.929704055190086,
+      "timestamp": 1788093883000,
+      "dateTime": "2026-08-30T12:44:43.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95554999448359,
+      "lon": -43.929714700207114,
+      "timestamp": 1788093893000,
+      "dateTime": "2026-08-30T12:44:53.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955816119909286,
+      "lon": -43.92974621616304,
+      "timestamp": 1788093903000,
+      "dateTime": "2026-08-30T12:45:03.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95608157478273,
+      "lon": -43.9297638181597,
+      "timestamp": 1788093913000,
+      "dateTime": "2026-08-30T12:45:13.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95636312291026,
+      "lon": -43.92978569492698,
+      "timestamp": 1788093923000,
+      "dateTime": "2026-08-30T12:45:23.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95661122724414,
+      "lon": -43.92987655475736,
+      "timestamp": 1788093933000,
+      "dateTime": "2026-08-30T12:45:33.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956406708806753,
+      "lon": -43.929813439026475,
+      "timestamp": 1788093943000,
+      "dateTime": "2026-08-30T12:45:43.000Z",
+      "speedMetersPerSec": 2.97,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95613588951528,
+      "lon": -43.92978980205953,
+      "timestamp": 1788093953000,
+      "dateTime": "2026-08-30T12:45:53.000Z",
+      "speedMetersPerSec": 2.97,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955860124900937,
+      "lon": -43.92976926639676,
+      "timestamp": 1788093963000,
+      "dateTime": "2026-08-30T12:46:03.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95558419264853,
+      "lon": -43.92974831163883,
+      "timestamp": 1788093973000,
+      "dateTime": "2026-08-30T12:46:13.000Z",
+      "speedMetersPerSec": 3.07,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955310272052884,
+      "lon": -43.92973657697439,
+      "timestamp": 1788093983000,
+      "dateTime": "2026-08-30T12:46:23.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95504280552268,
+      "lon": -43.92970338463783,
+      "timestamp": 1788093993000,
+      "dateTime": "2026-08-30T12:46:33.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95477399788797,
+      "lon": -43.929687794297934,
+      "timestamp": 1788094003000,
+      "dateTime": "2026-08-30T12:46:43.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95450669899583,
+      "lon": -43.9296533446759,
+      "timestamp": 1788094013000,
+      "dateTime": "2026-08-30T12:46:53.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954254990443587,
+      "lon": -43.92955955117941,
+      "timestamp": 1788094023000,
+      "dateTime": "2026-08-30T12:47:03.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954038485884666,
+      "lon": -43.929374143481255,
+      "timestamp": 1788094033000,
+      "dateTime": "2026-08-30T12:47:13.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95388182811439,
+      "lon": -43.92912469804287,
+      "timestamp": 1788094043000,
+      "dateTime": "2026-08-30T12:47:23.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953858107328415,
+      "lon": -43.92884021624923,
+      "timestamp": 1788094053000,
+      "dateTime": "2026-08-30T12:47:33.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953898172825575,
+      "lon": -43.92852086573839,
+      "timestamp": 1788094063000,
+      "dateTime": "2026-08-30T12:47:43.000Z",
+      "speedMetersPerSec": 3.14,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953941088169813,
+      "lon": -43.928241496905684,
+      "timestamp": 1788094073000,
+      "dateTime": "2026-08-30T12:47:53.000Z",
+      "speedMetersPerSec": 3.11,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95400588028133,
+      "lon": -43.92795491963625,
+      "timestamp": 1788094083000,
+      "dateTime": "2026-08-30T12:48:03.000Z",
+      "speedMetersPerSec": 3.1,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954040916636586,
+      "lon": -43.92768032848835,
+      "timestamp": 1788094093000,
+      "dateTime": "2026-08-30T12:48:13.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95408710092306,
+      "lon": -43.92740188166499,
+      "timestamp": 1788094103000,
+      "dateTime": "2026-08-30T12:48:23.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95412766933441,
+      "lon": -43.92713743261993,
+      "timestamp": 1788094113000,
+      "dateTime": "2026-08-30T12:48:33.000Z",
+      "speedMetersPerSec": 2.96,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954159604385495,
+      "lon": -43.926879772916436,
+      "timestamp": 1788094123000,
+      "dateTime": "2026-08-30T12:48:43.000Z",
+      "speedMetersPerSec": 2.82,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954127920791507,
+      "lon": -43.92661767080426,
+      "timestamp": 1788094133000,
+      "dateTime": "2026-08-30T12:48:53.000Z",
+      "speedMetersPerSec": 2.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95404460467398,
+      "lon": -43.926359340548515,
+      "timestamp": 1788094143000,
+      "dateTime": "2026-08-30T12:49:03.000Z",
+      "speedMetersPerSec": 2.82,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953916110098362,
+      "lon": -43.92611676827073,
+      "timestamp": 1788094153000,
+      "dateTime": "2026-08-30T12:49:13.000Z",
+      "speedMetersPerSec": 2.82,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953749561682343,
+      "lon": -43.92589146271348,
+      "timestamp": 1788094163000,
+      "dateTime": "2026-08-30T12:49:23.000Z",
+      "speedMetersPerSec": 2.87,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953610925003886,
+      "lon": -43.92563749104738,
+      "timestamp": 1788094173000,
+      "dateTime": "2026-08-30T12:49:33.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953488213941455,
+      "lon": -43.92539441585541,
+      "timestamp": 1788094183000,
+      "dateTime": "2026-08-30T12:49:43.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953340608626604,
+      "lon": -43.92516433261335,
+      "timestamp": 1788094193000,
+      "dateTime": "2026-08-30T12:49:53.000Z",
+      "speedMetersPerSec": 2.92,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95319828391075,
+      "lon": -43.92492435872555,
+      "timestamp": 1788094203000,
+      "dateTime": "2026-08-30T12:50:03.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95304673910141,
+      "lon": -43.9246988017112,
+      "timestamp": 1788094213000,
+      "dateTime": "2026-08-30T12:50:13.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952907683327794,
+      "lon": -43.92445044592023,
+      "timestamp": 1788094223000,
+      "dateTime": "2026-08-30T12:50:23.000Z",
+      "speedMetersPerSec": 2.96,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952747002243996,
+      "lon": -43.92421189695597,
+      "timestamp": 1788094233000,
+      "dateTime": "2026-08-30T12:50:33.000Z",
+      "speedMetersPerSec": 2.98,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95263929478824,
+      "lon": -43.923937138170004,
+      "timestamp": 1788094243000,
+      "dateTime": "2026-08-30T12:50:43.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952585818246007,
+      "lon": -43.92364528030157,
+      "timestamp": 1788094253000,
+      "dateTime": "2026-08-30T12:50:53.000Z",
+      "speedMetersPerSec": 3.07,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95255664922297,
+      "lon": -43.923345459625125,
+      "timestamp": 1788094263000,
+      "dateTime": "2026-08-30T12:51:03.000Z",
+      "speedMetersPerSec": 3.1,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952504010871053,
+      "lon": -43.923082519322634,
+      "timestamp": 1788094273000,
+      "dateTime": "2026-08-30T12:51:13.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952396722510457,
+      "lon": -43.92281563952565,
+      "timestamp": 1788094283000,
+      "dateTime": "2026-08-30T12:51:23.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95224006474018,
+      "lon": -43.92257960513234,
+      "timestamp": 1788094293000,
+      "dateTime": "2026-08-30T12:51:33.000Z",
+      "speedMetersPerSec": 3.08,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952026745304465,
+      "lon": -43.922440968453884,
+      "timestamp": 1788094303000,
+      "dateTime": "2026-08-30T12:51:43.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95181979611516,
+      "lon": -43.92232580110431,
+      "timestamp": 1788094313000,
+      "dateTime": "2026-08-30T12:51:53.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951585102826357,
+      "lon": -43.92225002869964,
+      "timestamp": 1788094323000,
+      "dateTime": "2026-08-30T12:52:03.000Z",
+      "speedMetersPerSec": 2.84,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95133842341602,
+      "lon": -43.92224323935807,
+      "timestamp": 1788094333000,
+      "dateTime": "2026-08-30T12:52:13.000Z",
+      "speedMetersPerSec": 2.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951103143393993,
+      "lon": -43.92227182164788,
+      "timestamp": 1788094343000,
+      "dateTime": "2026-08-30T12:52:23.000Z",
+      "speedMetersPerSec": 2.75,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950836347416043,
+      "lon": -43.92229160293937,
+      "timestamp": 1788094353000,
+      "dateTime": "2026-08-30T12:52:33.000Z",
+      "speedMetersPerSec": 2.8,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950580867007375,
+      "lon": -43.922261679545045,
+      "timestamp": 1788094363000,
+      "dateTime": "2026-08-30T12:52:43.000Z",
+      "speedMetersPerSec": 2.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95032806880772,
+      "lon": -43.922172747552395,
+      "timestamp": 1788094373000,
+      "dateTime": "2026-08-30T12:52:53.000Z",
+      "speedMetersPerSec": 2.83,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95010276325047,
+      "lon": -43.9219964761287,
+      "timestamp": 1788094383000,
+      "dateTime": "2026-08-30T12:53:03.000Z",
+      "speedMetersPerSec": 2.89,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949917187914252,
+      "lon": -43.92174510285258,
+      "timestamp": 1788094393000,
+      "dateTime": "2026-08-30T12:53:13.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94979975745082,
+      "lon": -43.92149230465293,
+      "timestamp": 1788094403000,
+      "dateTime": "2026-08-30T12:53:23.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94967520236969,
+      "lon": -43.92124604433775,
+      "timestamp": 1788094413000,
+      "dateTime": "2026-08-30T12:53:33.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94954721070826,
+      "lon": -43.92099056392908,
+      "timestamp": 1788094423000,
+      "dateTime": "2026-08-30T12:53:43.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94942005723715,
+      "lon": -43.92075092531741,
+      "timestamp": 1788094433000,
+      "dateTime": "2026-08-30T12:53:53.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.9493189714849,
+      "lon": -43.92053299583495,
+      "timestamp": 1788094443000,
+      "dateTime": "2026-08-30T12:54:03.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949358282610774,
+      "lon": -43.92057943157852,
+      "timestamp": 1788094453000,
+      "dateTime": "2026-08-30T12:54:13.000Z",
+      "speedMetersPerSec": 1.31,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949489627033472,
+      "lon": -43.920841282233596,
+      "timestamp": 1788094463000,
+      "dateTime": "2026-08-30T12:54:23.000Z",
+      "speedMetersPerSec": 3.37,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949650978669524,
+      "lon": -43.92109164968133,
+      "timestamp": 1788094473000,
+      "dateTime": "2026-08-30T12:54:33.000Z",
+      "speedMetersPerSec": 3.23,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.949768157675862,
+      "lon": -43.92136104404926,
+      "timestamp": 1788094483000,
+      "dateTime": "2026-08-30T12:54:43.000Z",
+      "speedMetersPerSec": 3.15,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.94989891536534,
+      "lon": -43.921611746773124,
+      "timestamp": 1788094493000,
+      "dateTime": "2026-08-30T12:54:53.000Z",
+      "speedMetersPerSec": 3.09,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950040318071842,
+      "lon": -43.92185783945024,
+      "timestamp": 1788094503000,
+      "dateTime": "2026-08-30T12:55:03.000Z",
+      "speedMetersPerSec": 3.07,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950218936428428,
+      "lon": -43.92204240895808,
+      "timestamp": 1788094513000,
+      "dateTime": "2026-08-30T12:55:13.000Z",
+      "speedMetersPerSec": 2.99,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95042957365513,
+      "lon": -43.92218029126525,
+      "timestamp": 1788094523000,
+      "dateTime": "2026-08-30T12:55:23.000Z",
+      "speedMetersPerSec": 2.9,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950681030750275,
+      "lon": -43.92224868759513,
+      "timestamp": 1788094533000,
+      "dateTime": "2026-08-30T12:55:33.000Z",
+      "speedMetersPerSec": 2.89,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.950951766222715,
+      "lon": -43.92226779833436,
+      "timestamp": 1788094543000,
+      "dateTime": "2026-08-30T12:55:43.000Z",
+      "speedMetersPerSec": 2.88,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951230213046074,
+      "lon": -43.92224776558578,
+      "timestamp": 1788094553000,
+      "dateTime": "2026-08-30T12:55:53.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.951507402583957,
+      "lon": -43.922226056456566,
+      "timestamp": 1788094563000,
+      "dateTime": "2026-08-30T12:56:03.000Z",
+      "speedMetersPerSec": 2.95,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95179590769112,
+      "lon": -43.9223088696599,
+      "timestamp": 1788094573000,
+      "dateTime": "2026-08-30T12:56:13.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95202356018126,
+      "lon": -43.92245161347091,
+      "timestamp": 1788094583000,
+      "dateTime": "2026-08-30T12:56:23.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95222288183868,
+      "lon": -43.92262444831431,
+      "timestamp": 1788094593000,
+      "dateTime": "2026-08-30T12:56:33.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952426310628653,
+      "lon": -43.92282569780946,
+      "timestamp": 1788094603000,
+      "dateTime": "2026-08-30T12:56:43.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95251758955419,
+      "lon": -43.923086542636156,
+      "timestamp": 1788094613000,
+      "dateTime": "2026-08-30T12:56:53.000Z",
+      "speedMetersPerSec": 3.01,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952567042782903,
+      "lon": -43.923343028873205,
+      "timestamp": 1788094623000,
+      "dateTime": "2026-08-30T12:57:03.000Z",
+      "speedMetersPerSec": 2.95,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952606270089746,
+      "lon": -43.92361527308822,
+      "timestamp": 1788094633000,
+      "dateTime": "2026-08-30T12:57:13.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952646838501096,
+      "lon": -43.92388517037034,
+      "timestamp": 1788094643000,
+      "dateTime": "2026-08-30T12:57:23.000Z",
+      "speedMetersPerSec": 2.88,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952755719423294,
+      "lon": -43.92414006404579,
+      "timestamp": 1788094653000,
+      "dateTime": "2026-08-30T12:57:33.000Z",
+      "speedMetersPerSec": 2.89,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.952888572588563,
+      "lon": -43.92439244315028,
+      "timestamp": 1788094663000,
+      "dateTime": "2026-08-30T12:57:43.000Z",
+      "speedMetersPerSec": 2.91,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95303307659924,
+      "lon": -43.924631578847766,
+      "timestamp": 1788094673000,
+      "dateTime": "2026-08-30T12:57:53.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953173389658332,
+      "lon": -43.924874821677804,
+      "timestamp": 1788094683000,
+      "dateTime": "2026-08-30T12:58:03.000Z",
+      "speedMetersPerSec": 2.93,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953326946124434,
+      "lon": -43.92512284219265,
+      "timestamp": 1788094693000,
+      "dateTime": "2026-08-30T12:58:13.000Z",
+      "speedMetersPerSec": 2.96,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953461727127433,
+      "lon": -43.92538527958095,
+      "timestamp": 1788094703000,
+      "dateTime": "2026-08-30T12:58:23.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95362584479153,
+      "lon": -43.925617625936866,
+      "timestamp": 1788094713000,
+      "dateTime": "2026-08-30T12:58:33.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953761296346784,
+      "lon": -43.92587687820196,
+      "timestamp": 1788094723000,
+      "dateTime": "2026-08-30T12:58:43.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95390043593943,
+      "lon": -43.92611710354686,
+      "timestamp": 1788094733000,
+      "dateTime": "2026-08-30T12:58:53.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954044688493013,
+      "lon": -43.926362190395594,
+      "timestamp": 1788094743000,
+      "dateTime": "2026-08-30T12:59:03.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954133285209537,
+      "lon": -43.926629992201924,
+      "timestamp": 1788094753000,
+      "dateTime": "2026-08-30T12:59:13.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954165555536747,
+      "lon": -43.926909947767854,
+      "timestamp": 1788094763000,
+      "dateTime": "2026-08-30T12:59:23.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954114593565464,
+      "lon": -43.92720088362694,
+      "timestamp": 1788094773000,
+      "dateTime": "2026-08-30T12:59:33.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95407343842089,
+      "lon": -43.927494920790195,
+      "timestamp": 1788094783000,
+      "dateTime": "2026-08-30T12:59:43.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95401711203158,
+      "lon": -43.92778334207833,
+      "timestamp": 1788094793000,
+      "dateTime": "2026-08-30T12:59:53.000Z",
+      "speedMetersPerSec": 3.06,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95396296493709,
+      "lon": -43.928064135834575,
+      "timestamp": 1788094803000,
+      "dateTime": "2026-08-30T13:00:03.000Z",
+      "speedMetersPerSec": 3.05,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953915355727077,
+      "lon": -43.92834099009633,
+      "timestamp": 1788094813000,
+      "dateTime": "2026-08-30T13:00:13.000Z",
+      "speedMetersPerSec": 3.04,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953877218067646,
+      "lon": -43.92861935310066,
+      "timestamp": 1788094823000,
+      "dateTime": "2026-08-30T13:00:23.000Z",
+      "speedMetersPerSec": 3.02,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953853664919734,
+      "lon": -43.92890341579914,
+      "timestamp": 1788094833000,
+      "dateTime": "2026-08-30T13:00:33.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.953932287171483,
+      "lon": -43.929172307252884,
+      "timestamp": 1788094843000,
+      "dateTime": "2026-08-30T13:00:43.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954077461734414,
+      "lon": -43.92939191311598,
+      "timestamp": 1788094853000,
+      "dateTime": "2026-08-30T13:00:53.000Z",
+      "speedMetersPerSec": 2.99,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954288182780147,
+      "lon": -43.92956734634936,
+      "timestamp": 1788094863000,
+      "dateTime": "2026-08-30T13:01:03.000Z",
+      "speedMetersPerSec": 2.99,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954565791413188,
+      "lon": -43.92965602688491,
+      "timestamp": 1788094873000,
+      "dateTime": "2026-08-30T13:01:13.000Z",
+      "speedMetersPerSec": 3.11,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.954822780564427,
+      "lon": -43.92965384759009,
+      "timestamp": 1788094883000,
+      "dateTime": "2026-08-30T13:01:23.000Z",
+      "speedMetersPerSec": 3.03,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95508538559079,
+      "lon": -43.92970279790461,
+      "timestamp": 1788094893000,
+      "dateTime": "2026-08-30T13:01:33.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955364502966404,
+      "lon": -43.92973112873733,
+      "timestamp": 1788094903000,
+      "dateTime": "2026-08-30T13:01:43.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.955630879849195,
+      "lon": -43.92972961999476,
+      "timestamp": 1788094913000,
+      "dateTime": "2026-08-30T13:01:53.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95589549653232,
+      "lon": -43.92975660972297,
+      "timestamp": 1788094923000,
+      "dateTime": "2026-08-30T13:02:03.000Z",
+      "speedMetersPerSec": 3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956150893121958,
+      "lon": -43.92976733855903,
+      "timestamp": 1788094933000,
+      "dateTime": "2026-08-30T13:02:13.000Z",
+      "speedMetersPerSec": 2.94,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956407630816102,
+      "lon": -43.92981578595936,
+      "timestamp": 1788094943000,
+      "dateTime": "2026-08-30T13:02:23.000Z",
+      "speedMetersPerSec": 2.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956429759040475,
+      "lon": -43.929841769859195,
+      "timestamp": 1788094953000,
+      "dateTime": "2026-08-30T13:02:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956520535051823,
+      "lon": -43.92984093166888,
+      "timestamp": 1788094963000,
+      "dateTime": "2026-08-30T13:02:43.000Z",
+      "speedMetersPerSec": 1,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95662396773696,
+      "lon": -43.929888708516955,
+      "timestamp": 1788094973000,
+      "dateTime": "2026-08-30T13:02:53.000Z",
+      "speedMetersPerSec": 1.3,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95671482756734,
+      "lon": -43.92996372655034,
+      "timestamp": 1788094983000,
+      "dateTime": "2026-08-30T13:03:03.000Z",
+      "speedMetersPerSec": 1.22,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956839382648468,
+      "lon": -43.930085180327296,
+      "timestamp": 1788094993000,
+      "dateTime": "2026-08-30T13:03:13.000Z",
+      "speedMetersPerSec": 2.21,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95698891580105,
+      "lon": -43.93030730076134,
+      "timestamp": 1788095003000,
+      "dateTime": "2026-08-30T13:03:23.000Z",
+      "speedMetersPerSec": 2.77,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95711891911924,
+      "lon": -43.9305217936635,
+      "timestamp": 1788095013000,
+      "dateTime": "2026-08-30T13:03:33.000Z",
+      "speedMetersPerSec": 2.81,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95727381668985,
+      "lon": -43.93072840757668,
+      "timestamp": 1788095023000,
+      "dateTime": "2026-08-30T13:03:43.000Z",
+      "speedMetersPerSec": 2.76,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957409352064133,
+      "lon": -43.930937284603715,
+      "timestamp": 1788095033000,
+      "dateTime": "2026-08-30T13:03:53.000Z",
+      "speedMetersPerSec": 2.75,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95750834234059,
+      "lon": -43.93106854520738,
+      "timestamp": 1788095043000,
+      "dateTime": "2026-08-30T13:04:03.000Z",
+      "speedMetersPerSec": 2.64,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95742200873792,
+      "lon": -43.93126208335161,
+      "timestamp": 1788095053000,
+      "dateTime": "2026-08-30T13:04:13.000Z",
+      "speedMetersPerSec": 2.49,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957402059808373,
+      "lon": -43.931446904316545,
+      "timestamp": 1788095063000,
+      "dateTime": "2026-08-30T13:04:23.000Z",
+      "speedMetersPerSec": 2.18,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95734422467649,
+      "lon": -43.93168427981436,
+      "timestamp": 1788095073000,
+      "dateTime": "2026-08-30T13:04:33.000Z",
+      "speedMetersPerSec": 2.47,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95724598877132,
+      "lon": -43.93188494257629,
+      "timestamp": 1788095083000,
+      "dateTime": "2026-08-30T13:04:43.000Z",
+      "speedMetersPerSec": 2.52,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957164181396365,
+      "lon": -43.93203145824373,
+      "timestamp": 1788095093000,
+      "dateTime": "2026-08-30T13:04:53.000Z",
+      "speedMetersPerSec": 2.42,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95715311728418,
+      "lon": -43.932048892602324,
+      "timestamp": 1788095103000,
+      "dateTime": "2026-08-30T13:05:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957139622420073,
+      "lon": -43.9320224057883,
+      "timestamp": 1788095113000,
+      "dateTime": "2026-08-30T13:05:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95709301903844,
+      "lon": -43.93203238025308,
+      "timestamp": 1788095123000,
+      "dateTime": "2026-08-30T13:05:23.000Z",
+      "speedMetersPerSec": 1.48,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957053121179342,
+      "lon": -43.932091388851404,
+      "timestamp": 1788095133000,
+      "dateTime": "2026-08-30T13:05:33.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957005847245455,
+      "lon": -43.93235893920064,
+      "timestamp": 1788095143000,
+      "dateTime": "2026-08-30T13:05:43.000Z",
+      "speedMetersPerSec": 2.6,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956957902759314,
+      "lon": -43.932573180645704,
+      "timestamp": 1788095153000,
+      "dateTime": "2026-08-30T13:05:53.000Z",
+      "speedMetersPerSec": 2.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956956142559648,
+      "lon": -43.93279337324202,
+      "timestamp": 1788095163000,
+      "dateTime": "2026-08-30T13:06:03.000Z",
+      "speedMetersPerSec": 2.31,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956977935507894,
+      "lon": -43.93301675096154,
+      "timestamp": 1788095173000,
+      "dateTime": "2026-08-30T13:06:13.000Z",
+      "speedMetersPerSec": 2.39,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957008697092533,
+      "lon": -43.93319754861295,
+      "timestamp": 1788095183000,
+      "dateTime": "2026-08-30T13:06:23.000Z",
+      "speedMetersPerSec": 2.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956837706267834,
+      "lon": -43.933327719569206,
+      "timestamp": 1788095193000,
+      "dateTime": "2026-08-30T13:06:33.000Z",
+      "speedMetersPerSec": 2.44,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95679018087685,
+      "lon": -43.93337574787438,
+      "timestamp": 1788095203000,
+      "dateTime": "2026-08-30T13:06:43.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956743409857154,
+      "lon": -43.93344464711845,
+      "timestamp": 1788095213000,
+      "dateTime": "2026-08-30T13:06:53.000Z",
+      "speedMetersPerSec": 1.51,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956733183935285,
+      "lon": -43.933500638231635,
+      "timestamp": 1788095223000,
+      "dateTime": "2026-08-30T13:07:03.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956726981326938,
+      "lon": -43.93355310894549,
+      "timestamp": 1788095233000,
+      "dateTime": "2026-08-30T13:07:13.000Z",
+      "speedMetersPerSec": 0,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95669043622911,
+      "lon": -43.93370079807937,
+      "timestamp": 1788095243000,
+      "dateTime": "2026-08-30T13:07:23.000Z",
+      "speedMetersPerSec": 1.74,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956730334088206,
+      "lon": -43.93380674533546,
+      "timestamp": 1788095253000,
+      "dateTime": "2026-08-30T13:07:33.000Z",
+      "speedMetersPerSec": 1.53,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95679747313261,
+      "lon": -43.933925768360496,
+      "timestamp": 1788095263000,
+      "dateTime": "2026-08-30T13:07:43.000Z",
+      "speedMetersPerSec": 1.36,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95686201378703,
+      "lon": -43.934027859941125,
+      "timestamp": 1788095273000,
+      "dateTime": "2026-08-30T13:07:53.000Z",
+      "speedMetersPerSec": 1.13,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.956963770091534,
+      "lon": -43.934083096683025,
+      "timestamp": 1788095283000,
+      "dateTime": "2026-08-30T13:08:03.000Z",
+      "speedMetersPerSec": 1.22,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95708036236465,
+      "lon": -43.93413221463561,
+      "timestamp": 1788095293000,
+      "dateTime": "2026-08-30T13:08:13.000Z",
+      "speedMetersPerSec": 1.28,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95718203485012,
+      "lon": -43.934131963178515,
+      "timestamp": 1788095303000,
+      "dateTime": "2026-08-30T13:08:23.000Z",
+      "speedMetersPerSec": 1.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.95728706009686,
+      "lon": -43.934095753356814,
+      "timestamp": 1788095313000,
+      "dateTime": "2026-08-30T13:08:33.000Z",
+      "speedMetersPerSec": 1.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957407843321562,
+      "lon": -43.93406968563795,
+      "timestamp": 1788095323000,
+      "dateTime": "2026-08-30T13:08:43.000Z",
+      "speedMetersPerSec": 1.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957491997629404,
+      "lon": -43.93399391323328,
+      "timestamp": 1788095333000,
+      "dateTime": "2026-08-30T13:08:53.000Z",
+      "speedMetersPerSec": 1.29,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957570787519217,
+      "lon": -43.93392350524664,
+      "timestamp": 1788095343000,
+      "dateTime": "2026-08-30T13:09:03.000Z",
+      "speedMetersPerSec": 1.31,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    },
+    {
+      "lat": -19.957665586844087,
+      "lon": -43.93395577557385,
+      "timestamp": 1788095353000,
+      "dateTime": "2026-08-30T13:09:13.000Z",
+      "speedMetersPerSec": null,
+      "totalDistanceMeters": null,
+      "durationSecs": null,
+      "source": "graphql"
+    }
+  ]
+}
