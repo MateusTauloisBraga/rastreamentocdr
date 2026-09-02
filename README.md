@@ -30,3 +30,5 @@ npm run build
 ## Dados Locais
 
 Os arquivos em `data/*.json` guardam configuração e estado do rastreador. Eles ficam fora do Git para evitar versionar links ou tokens.
+
+Por padrão, o rastreador é consultado a cada 15 minutos. Para alterar localmente, defina `POLL_MS` antes de iniciar o servidor.

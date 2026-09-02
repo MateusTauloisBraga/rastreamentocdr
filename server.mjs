@@ -11,7 +11,7 @@ const defaultRoutePath = join(__dirname, 'GPXBASE.gpx');
 const configPath = join(dataDir, 'tracker-config.json');
 const statePath = join(dataDir, 'tracker-state.json');
 const port = Number(process.env.PORT || 3000);
-const pollMs = Number(process.env.POLL_MS || 5 * 60 * 1000);
+const pollMs = Number(process.env.POLL_MS || 15 * 60 * 1000);
 
 const jsonHeaders = { 'content-type': 'application/json; charset=utf-8' };
 const mimeTypes = {

@@ -122,6 +122,24 @@ textarea {
   color: var(--rose);
 }
 
+.live-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.live-row .eyebrow {
+  margin-bottom: 6px;
+}
+
+.update-clock {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
 h1,
 h2 {
   margin: 0;
@@ -424,13 +442,7 @@ h2 {
 
 @media (max-width: 560px) {
   .brand-panel {
-    top: 14px;
-    left: 14px;
-    width: calc(100% - 28px);
-  }
-
-  .brand-panel h1 {
-    font-size: 2.3rem;
+    display: none;
   }
 
   .map-legend {
@@ -441,6 +453,14 @@ h2 {
 
   .status-panel {
     padding: 20px;
+  }
+
+  .live-row {
+    gap: 8px;
+  }
+
+  .update-clock {
+    font-size: 0.74rem;
   }
 
   .metric-grid {

@@ -14,6 +14,7 @@ const layers = {
 
 const el = {
   lastUpdate: document.querySelector('#last-update'),
+  updateClock: document.querySelector('#update-clock'),
   targetName: document.querySelector('#target-name'),
   progressTitle: document.querySelector('#progress-title'),
   progressBar: document.querySelector('#progress-bar'),
@@ -33,7 +34,9 @@ let route = [];
 let routeDistances = [];
 let fallbackTargetDistanceKm = null;
 let fitted = false;
+let latestSuccessAt = null;
 const offRouteThresholdMeters = 800;
+const updateIntervalMs = 15 * 60 * 1000;
 
 el.refreshButton.addEventListener('click', async () => {
   el.refreshButton.disabled = true;
@@ -45,6 +48,7 @@ el.refreshButton.addEventListener('click', async () => {
 await loadConfig();
 await update();
 setInterval(update, 30_000);
+setInterval(renderCountdown, 1_000);
 
 async function loadConfig() {
   const config = await fetchJson('/api/config');
@@ -263,7 +267,9 @@ function durationFromPoints(points) {
 
 function renderStatus(status, progress) {
   const latest = status.latestPoint;
-  el.lastUpdate.textContent = status.lastSuccessAt ? `Atualizado ${formatRelative(status.lastSuccessAt)}` : 'Aguardando primeira leitura';
+  latestSuccessAt = status.lastSuccessAt || null;
+  el.lastUpdate.textContent = status.lastSuccessAt ? `Atualizado ${formatUpdateTime(status.lastSuccessAt)}` : 'Aguardando primeira leitura';
+  renderCountdown();
   el.progressTitle.textContent = latest ? `${progress.percent.toFixed(1)}% concluído` : 'Sem ponto ainda';
   el.progressBar.style.width = `${progress.percent}%`;
   el.doneDistance.textContent = formatKm(progress.doneMeters);
@@ -348,4 +354,32 @@ function formatRelative(iso) {
   if (seconds < 60) return 'agora';
   if (seconds < 3600) return `há ${Math.round(seconds / 60)} min`;
   return new Date(iso).toLocaleString('pt-BR', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit' });
+}
+
+function renderCountdown() {
+  if (!el.updateClock) return;
+  if (!latestSuccessAt) {
+    el.updateClock.textContent = 'Próxima atualização em --:--';
+    return;
+  }
+
+  const elapsed = Date.now() - Date.parse(latestSuccessAt);
+  const remaining = Math.max(0, updateIntervalMs - (elapsed % updateIntervalMs));
+  el.updateClock.textContent = `Próxima em ${formatCountdown(remaining)}`;
+}
+
+function formatCountdown(milliseconds) {
+  const totalSeconds = Math.ceil(milliseconds / 1000);
+  const minutes = Math.floor(totalSeconds / 60).toString().padStart(2, '0');
+  const seconds = (totalSeconds % 60).toString().padStart(2, '0');
+  return `${minutes}:${seconds}`;
+}
+
+function formatUpdateTime(iso) {
+  return new Date(iso).toLocaleString('pt-BR', {
+    day: '2-digit',
+    month: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
 }

@@ -1,7 +1,7 @@
 {
-  "lastFetchAt": "2026-09-02T14:33:20.309Z",
+  "lastFetchAt": "2026-09-02T23:13:55.951Z",
   "lastSuccessAt": "2026-08-30T17:37:36.056Z",
-  "error": "GraphQL: HTTP 400: {\"errors\":[{\"message\":\"Cannot query field \\\"sessionById\\\" on type \\\"Query\\\".\",\"locations\":[{\"line\":2,\"column\":9}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Cannot query field \\\"trackPointsBySessionId | services: HTTP 404: <!DOCTYPE html><html lang=\"en-US\" dir=\"ltr\" data-sentry-component=\"RootLayout\" data-sentry-source-file=\"layout.jsx\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link  | pagina: nenhum trackPoint encontrado no HTML.",
+  "error": "GraphQL: fetch failed | services: fetch failed | pagina: fetch failed",
   "session": {
     "sessionId": "22cfab0a-6c65-872e-89b8-28a7eec62f00",
     "token": "5E7E395FCFECC7697766F3184DDECD",

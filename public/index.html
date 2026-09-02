@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Caminhos de Rosa ao vivo</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
@@ -30,7 +31,10 @@
       <aside class="status-panel" aria-label="Status do trajeto">
         <div class="status-header">
           <div>
-            <p class="eyebrow">Ao vivo</p>
+            <div class="live-row">
+              <p class="eyebrow">Ao vivo</p>
+              <p id="update-clock" class="update-clock">Atualizando em --:--</p>
+            </div>
             <h2 id="progress-title">Sem ponto ainda</h2>
           </div>
           <button id="refresh-button" type="button" title="Atualizar agora" aria-label="Atualizar agora">↻</button>
