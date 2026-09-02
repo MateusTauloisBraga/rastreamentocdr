@@ -1,5 +1,5 @@
 {
-  "lastFetchAt": "2026-09-02T14:28:20.254Z",
+  "lastFetchAt": "2026-09-02T14:33:20.309Z",
   "lastSuccessAt": "2026-08-30T17:37:36.056Z",
   "error": "GraphQL: HTTP 400: {\"errors\":[{\"message\":\"Cannot query field \\\"sessionById\\\" on type \\\"Query\\\".\",\"locations\":[{\"line\":2,\"column\":9}],\"extensions\":{\"code\":\"GRAPHQL_VALIDATION_FAILED\"}},{\"message\":\"Cannot query field \\\"trackPointsBySessionId | services: HTTP 404: <!DOCTYPE html><html lang=\"en-US\" dir=\"ltr\" data-sentry-component=\"RootLayout\" data-sentry-source-file=\"layout.jsx\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link  | pagina: nenhum trackPoint encontrado no HTML.",
   "session": {
